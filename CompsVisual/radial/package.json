@@ -1,0 +1,14 @@
+{
+  "name": "@unnato0159/radial-stacked-bar-chart",
+  "main": "69eb972c6d243a23@139.js",
+  "version": "139.0.0",
+  "homepage": "https://observablehq.com/@unnato0159/radial-stacked-bar-chart",
+  "author": {
+    "name": "unnato0159",
+    "url": "https://observablehq.com/@unnato0159"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

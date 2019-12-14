@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+ <link rel="stylesheet" href="index.css">  
+ <script src="https://d3js.org/d3.v4.js"></script>
+ <script src="RadarChart.js"></script>
+
+</head>
+<body> 
+
+<h1></h1>
+<p></p>
+<div id="chart" style="float: left"></div>
+<div id="my_dataviz" style="float: right"></div>
+<script>
+	
+  var width = 300,
+    height = 300;
+
+var config = {
+    w: width,
+    h: height,
+    maxValue: 100,
+    levels: 5,
+    ExtraWidthX: 300
+}
+
+//Call function to draw the Radar chart
+d3.json("data.json", function(error, data) {
+	console.log(data);
+    if (error) throw error;
+    RadarChart.draw("#chart", data, config);
+});
+d3.csv()
+
+var svg = d3.select('body')
+	.selectAll('svg')
+	.append('svg')
+	.attr("width", width)
+	.attr("height", height);
+
+
+
+</script>
+
+
+
+</body>
+</html> 
+

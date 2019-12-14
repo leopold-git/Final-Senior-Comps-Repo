@@ -1,0 +1,33 @@
+[
+    [
+      {"area": "melanoma ", "value": 20},
+      {"area": "melanocytic nevi ", "value": 120},
+      {"area": "Actinic keratoses and intraepithelial carcinoma", "value": 10},
+      {"area": " benign keratosis-like lesions", "value": 10},
+      {"area": " basal cell carcinoma", "value": 5},
+      {"area": "dermatofibroma", "value": 5},
+      {"area": "vascular lesions", "value": 30}
+
+  	],
+  	[
+      {"area": "melanoma ", "value": 10},
+      {"area": "melanocytic nevi ", "value": 30},
+      {"area": "Actinic keratoses and intraepithelial carcinoma", "value":20},
+      {"area": " benign keratosis-like lesions", "value": 10},
+      {"area": " basal cell carcinoma ", "value": 10},
+      {"area": "dermatofibroma ", "value": 20},
+      {"area": "vascular lesions", "value": 0}
+
+  	],
+  	[
+      {"area": "melanoma ", "value": 0},
+      {"area": "melanocytic nevi", "value": 0},
+      {"area": "Actinic keratoses and intraepithelial carcinoma", "value":50},
+      {"area": " benign keratosis-like lesions ", "value": 0},
+      {"area": " basal cell carcinoma", "value": 40},
+      {"area": "dermatofibroma", "value": 10},
+      {"area": "vascular lesions", "value": 0}
+
+  	]
+
+  ]
